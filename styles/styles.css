@@ -12,13 +12,6 @@ body {
     background: radial-gradient(circle, #9a78b2, #e1d4e4); /* Circular ombre background */
 }
 
-/* Page Heading */
-.page-heading {
-    font-size: 50px !important; /* Larger font size */
-    margin-top: 20px; /* Add margin from the top */
-    margin-left: 20px; /* Align to the left */
-}
-
 /* Main Content Styles */
 .main-content {
     text-align: center;
@@ -38,7 +31,17 @@ body {
 }
 
 /* Button Styles */
-.round-btn, .products-btn {
+.buttons, .resume-button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align buttons */
+    margin: 10px 0; /* Space between button groups */
+}
+
+.buttons a, .resume-button-container a {
+    margin: 0 10px; /* Space between buttons */
+}
+
+.round-btn {
     display: inline-block;
     padding: 10px 20px;
     border: none;
@@ -46,15 +49,11 @@ body {
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
-    text-align: center;
-    margin: 10px 10px; /* Space between buttons */
-}
-
-.round-btn {
-    background-color: #ffffff;
-    color: #5d3663;
+    background-color: #ffffff; /* Button background color */
+    color: #5d3663; /* Button text color */
+    transition: background-color 0.3s; /* Smooth transition */
 }
 
 .round-btn:hover {
-    background-color: #aa78b2;
+    background-color: #aa78b2; /* Button hover color */
 }
