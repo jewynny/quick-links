@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tangerine', serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh; /* Set a minimum height to fill the viewport */
+    background: radial-gradient(circle, #9a78b2, #e1d4e4); /* Circular ombre background */
+}
+
+/* Page Heading */
+.page-heading {
+    font-size: 50px !important; /* Larger font size */
+    margin-top: 20px; /* Add margin from the top */
+    margin-left: 20px; /* Align to the left */
+}
+
+/* Main Content Styles */
+.main-content {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed based on the heading size */
+}
+
+.main-heading {
+    font-size: 48px;
+    color: #ffffff;
+    margin: 20px 0; /* Add vertical space */
+}
+
+.sub-heading {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0; /* Add vertical space */
+}
+
+/* Button Styles */
+.round-btn, .products-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 10px; /* Space between buttons */
+}
+
+.round-btn {
+    background-color: #ffffff;
+    color: #5d3663;
+}
+
+.round-btn:hover {
+    background-color: #aa78b2;
+}
